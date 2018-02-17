@@ -1,0 +1,162 @@
+#calculadora{
+	width: 300px;
+	margin: auto;
+	text-align: center;
+}
+
+.btn-primary{
+	width: 60px;
+	height: 60px;
+}
+
+.bt_igual{
+	height: 140px;
+}
+.tela_inicial{
+	width:100%;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+}
+
+.caixa_login{
+	width: 350px;
+	border:1px solid #CECECE;
+	padding: 20px;
+	/*margin-left:30%;*/
+}
+
+.bt_cadastro{
+	height: 30px;
+	width: 80px;
+	color: #FFF;
+	background-color: blue;
+	font-weight: bold;
+	font-size: 14px;
+	border: 0;
+	cursor: pointer;
+}
+.bt_buscar{
+	height: 30px;
+	width: 80px;
+	color: #FFF;
+	background-color: blue;
+	font-weight: bold;
+	font-size: 14px;
+	border: 0;
+	cursor: pointer;
+}
+.bt_voltar{
+	height: 30px;
+	width: 80px;
+	color: #FFF;
+	background-color: #F77A06;
+	font-weight: bold;
+	font-size: 14px;
+	border: 0;
+	cursor: pointer;
+}
+.efeito_botao{
+	text-decoration: none;
+	text-transform: none;
+}
+
+.bt_entrar{
+	height: 30px;
+	width: 80px;
+	color: #FFF;
+	background-color: green;
+	font-weight: bold;
+	font-size: 14px;
+	border: 0;
+	cursor: pointer;
+}
+.bt_sair{
+	height: 30px;
+	width: 80px;
+	color: #FFF;
+	background-color: red;
+	font-weight: bold;
+	font-size: 14px;
+	border: 0;
+	cursor: pointer;
+}
+.bt_numero{
+	width: 35px;
+	height: 35px;
+	background-color: #CECECE;
+	font-size: 16px;
+	color: #FFF;
+	border: 1px solid #CCC;
+	cursor: pointer;
+	margin-bottom: 3px;
+}
+.input_resultado{
+	width: 250px;
+	height: 10px;
+	border: 1px solid #CECECE;
+	text-align: right;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.input_login{
+	width: 200px;
+	height: 30px;
+	border: 1px solid #CECECE;
+	float: right;
+}
+.input_filtro{
+	width: 250px;
+	height: 30px;
+	border: 1px solid #CECECE;
+}
+.nome_calculadora{
+	font-size: 18px;
+	color: blue;
+	font-weight: bold;
+	text-align: center;
+}
+.alinha_numeros{
+	text-align: center;
+}
+.clear{
+	overflow: hidden;
+}
+.botoes{
+	margin-top: 20px;
+	float: right;
+}
+
+.cadastro_ok{
+	font-size: 18px;
+	color: green;
+	text-align: center;
+}
+
+.cadastro_erro{
+	font-size: 18px;
+	color: red;
+	text-align: center;
+}
+.relatorio_filtro{
+	border: 1px solid #CECECE;
+	margin-top: 50px;
+}
+.tabela_filtro{
+	border: 1px solid #CECECE;
+	margin-top: 50px;
+	width: 400px;
+}
+.coluna_filtro{
+	border-right: 1px solid #CECECE;
+}
+.titulo_filtro{
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #474544;
+	color: #FFF;
+	width: 180px;
+	height: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
